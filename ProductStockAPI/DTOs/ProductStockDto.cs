@@ -1,6 +1,6 @@
 using System;
 
-namespace ProductStockAPİ.DTOs
+namespace ProductStockAPI.DTOs
 {
     public class ProductStockDto
     {

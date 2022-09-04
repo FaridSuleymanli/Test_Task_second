@@ -1,8 +1,8 @@
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
-using ProductStockAPİ.Models;
+using ProductStockAPI.Models;
 
-namespace ProductStockAPİ.Data
+namespace ProductStockAPI.Data
 {
     public class StockDbContext : DbContext
     {

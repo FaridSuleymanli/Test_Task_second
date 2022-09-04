@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ProductStockAPİ.Data;
+using ProductStockAPI.Data;
 
-namespace ProductStockAPİ.Migrations
+namespace ProductStockAPI.Migrations
 {
     [DbContext(typeof(StockDbContext))]
     [Migration("20220904170946_InitialCreate")]

@@ -2,9 +2,9 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using ProductStockAPİ.Data;
+using ProductStockAPI.Data;
 
-namespace ProductStockAPİ.Common
+namespace ProductStockAPI.Common
 {
     public class UnitOfWork : IUnitOfWork
     {

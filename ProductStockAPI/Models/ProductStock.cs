@@ -1,6 +1,6 @@
 using System;
 
-namespace ProductStockAPİ.Models
+namespace ProductStockAPI.Models
 {
     public class ProductStock
     {

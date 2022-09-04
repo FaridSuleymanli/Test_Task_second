@@ -2,11 +2,11 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using ProductStockAPİ.DTOs;
-using ProductStockAPİ.Models;
-using ProductStockAPİ.Repositories;
+using ProductStockAPI.DTOs;
+using ProductStockAPI.Models;
+using ProductStockAPI.Repositories;
 
-namespace ProductStockAPİ.Controllers
+namespace ProductStockAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

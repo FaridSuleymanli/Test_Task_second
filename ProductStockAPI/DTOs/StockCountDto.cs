@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace ProductStockAPİ.DTOs
+namespace ProductStockAPI.DTOs
 {
     public class StockCountDto
     {

@@ -1,0 +1,37 @@
+2022-09-05 03:47:29.681 +04:00 [INF] Starting web host
+2022-09-05 03:48:09.975 +04:00 [INF] Starting web host
+2022-09-05 03:48:49.297 +04:00 [INF] Starting web host
+2022-09-05 03:49:49.614 +04:00 [INF] Starting web host
+2022-09-05 03:49:50.083 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-05 03:49:50.086 +04:00 [INF] Hosting environment: Development
+2022-09-05 03:49:50.087 +04:00 [INF] Content root path: C:\Users\ASUS\OneDrive\Documents\PashaTask\Task_src2\ProductStockAPI
+2022-09-05 03:49:50.097 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:65286/swagger/index.html - -
+2022-09-05 03:49:50.097 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 65
+2022-09-05 03:49:50.163 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 65 - 404 - - 70.8371ms
+2022-09-05 03:49:50.227 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:65286/swagger/index.html - - - 200 - text/html;charset=utf-8 135.1450ms
+2022-09-05 03:49:50.230 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:65286/_framework/aspnetcore-browser-refresh.js - -
+2022-09-05 03:49:50.235 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:65286/_framework/aspnetcore-browser-refresh.js - - - 200 11557 application/javascript;+charset=utf-8 4.7988ms
+2022-09-05 03:49:50.360 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:65286/swagger/v1/swagger.json - -
+2022-09-05 03:49:50.445 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:65286/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.2780ms
+2022-09-05 03:49:52.184 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 6671
+2022-09-05 03:49:52.185 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 6671 - 404 - - 1.1697ms
+2022-09-05 03:49:56.199 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:65286/swagger/index.html - -
+2022-09-05 03:49:56.201 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:65286/swagger/index.html - - - 200 - text/html;charset=utf-8 2.1060ms
+2022-09-05 03:49:56.222 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:65286/_framework/aspnetcore-browser-refresh.js - -
+2022-09-05 03:49:56.226 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:65286/_framework/aspnetcore-browser-refresh.js - - - 200 11557 application/javascript;+charset=utf-8 4.0825ms
+2022-09-05 03:49:56.364 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:65286/swagger/v1/swagger.json - -
+2022-09-05 03:49:56.369 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:65286/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.2175ms
+2022-09-05 03:50:02.199 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 12772
+2022-09-05 03:50:02.200 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 12772 - 404 - - 0.5635ms
+2022-09-05 03:50:09.420 +04:00 [INF] Starting web host
+2022-09-05 03:50:10.889 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-05 03:50:10.894 +04:00 [INF] Hosting environment: Development
+2022-09-05 03:50:10.897 +04:00 [INF] Content root path: C:\Users\ASUS\OneDrive\Documents\PashaTask\Task_src2\ProductStockAPI
+2022-09-05 03:50:10.919 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:65286/swagger/index.html - -
+2022-09-05 03:50:10.919 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 65
+2022-09-05 03:50:11.097 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 65 - 404 - - 185.0777ms
+2022-09-05 03:50:11.224 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:65286/swagger/index.html - - - 200 - text/html;charset=utf-8 313.2896ms
+2022-09-05 03:50:11.392 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:65286/swagger/v1/swagger.json - -
+2022-09-05 03:50:11.570 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:65286/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.7148ms
+2022-09-05 03:50:13.143 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 5031
+2022-09-05 03:50:13.146 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:65286/api/events/raw application/vnd.serilog.clef;+charset=utf-8 5031 - 404 - - 2.0336ms

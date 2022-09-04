@@ -4,12 +4,12 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
-using ProductStockAPİ.Common;
-using ProductStockAPİ.DTOs;
-using ProductStockAPİ.Exceptions;
-using ProductStockAPİ.Models;
+using ProductStockAPI.Common;
+using ProductStockAPI.DTOs;
+using ProductStockAPI.Exceptions;
+using ProductStockAPI.Models;
 
-namespace ProductStockAPİ.Repositories
+namespace ProductStockAPI.Repositories
 {
     public class ProductStockRepository : IProductStockRepository
     {
@@ -19,7 +19,7 @@ namespace ProductStockAPİ.Repositories
         {
             _repository = repository;
         }
-        
+
         public async Task<List<ProductStock>> GetAll(CancellationToken cancellationToken = default)
         {
             return await _repository.GetList(cancellationToken);
@@ -27,15 +27,16 @@ namespace ProductStockAPİ.Repositories
 
         public async Task<ProductStock> GetById(Guid id, CancellationToken cancellationToken = default)
         {
-            string baseAddress = "http://localhost:65286/";
+            string baseAddress = "http://localhost:5000/";
+            string productId = id.ToString();
 
-            using(var client = new HttpClient())
+            using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(baseAddress);
                 client.DefaultRequestHeaders.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                HttpResponseMessage res = await client.GetAsync($"api/product/{id}");
+                HttpResponseMessage res = await client.GetAsync($"api/product/{productId}");
 
                 if (!res.IsSuccessStatusCode)
                 {

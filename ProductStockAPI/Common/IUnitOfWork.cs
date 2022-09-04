@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace ProductStockAPİ.Common
+namespace ProductStockAPI.Common
 {
     public interface IUnitOfWork
     {

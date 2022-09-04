@@ -5,11 +5,12 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using ProductStockAPİ.Data;
+using ProductStockAPI.Common;
+using ProductStockAPI.Data;
 
-namespace ProductStockAPİ.Common
+namespace ProductStockAPI.Common
 {
-    public class BaseEfRepository<TModel> : IBaseEfRepository<TModel> 
+    public class BaseEfRepository<TModel> : IBaseEfRepository<TModel>
         where TModel : class
     {
         private readonly StockDbContext _dbContext;
@@ -21,7 +22,7 @@ namespace ProductStockAPİ.Common
             _dbContext = dbContext;
             UnitOfWork = unitOfWork;
         }
-        
+
         public async Task<List<TModel>> GetList(CancellationToken cancellationToken = default)
         {
             IQueryable<TModel> query = Table;

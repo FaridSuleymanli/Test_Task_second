@@ -1,6 +1,6 @@
 using System;
 
-namespace ProductStockAPİ.Exceptions
+namespace ProductStockAPI.Exceptions
 {
     public class BadRequestException : Exception
     {

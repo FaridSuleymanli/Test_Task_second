@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ProductStockAPİ.Models;
+using ProductStockAPI.Models;
 
-namespace ProductStockAPİ.Data.Configurations
+namespace ProductStockAPI.Data.Configurations
 {
     public class ProductStockConfiguration : IEntityTypeConfiguration<ProductStock>
     {
