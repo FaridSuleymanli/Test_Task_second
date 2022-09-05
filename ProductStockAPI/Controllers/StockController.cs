@@ -25,7 +25,7 @@ namespace ProductStockAPI.Controllers
             return Ok(await _repository.GetAll(cancellationToken));
         }
         
-        [HttpGet("{id}")]
+        [HttpGet("GetStock")]
         public async Task<ActionResult<ProductStock>> GetById(Guid id, CancellationToken cancellationToken)
         {
             return Ok(await _repository.GetById(id, cancellationToken));
@@ -38,14 +38,14 @@ namespace ProductStockAPI.Controllers
             return Ok();
         }
         
-        [HttpPut("{productId}")]
+        [HttpPut("AddStock")]
         public async Task<ActionResult<ProductStock>> Update(Guid productId, [FromBody] StockCountDto stockDto, CancellationToken cancellationToken)
         {
             await _repository.AddStock(productId, stockDto.ProductCount, cancellationToken);
             return Ok();
         }
 
-        [HttpDelete("{productId}")]
+        [HttpDelete("RemoveStock")]
         public async Task<ActionResult<ProductStock>> Delete(Guid productId, [FromBody] StockCountDto stockDto, CancellationToken cancellationToken)
         {
             await _repository.RemoveStock(productId, stockDto.ProductCount, cancellationToken);
